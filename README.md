@@ -1,20 +1,27 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+🏫 自由学園 落とし物掲示板 (Lost & Found)
+自由学園のキャンパスライフをより円滑にするための、モダンで「表情豊かな」落とし物管理アプリケーションです。
 
-# Run and deploy your AI Studio app
+🌟 プロジェクトの概要
+このアプリは、学園内で発生する落とし物をリアルタイムに共有し、持ち主の元へ届けるためのプラットフォームです。
+「生活即教育」の精神に基づき、生徒・学生同士が助け合えるデジタルな場を提供します。
 
-This contains everything you need to run your app locally.
+✨ 主な機能
+かんたん投稿: 写真撮影・アップロード、場所の入力だけで素早く共有。
+スマート検索: タイトルや備考から落とし物をリアルタイムに絞り込み。
+区分切り替え: 中等部・高等部のカテゴリをワンタップで切り替え。
+「私のです！」機能: 自分の物を見つけた際、拾得者に通知を送るインタラクション。
+ゲスト閲覧モード: ログイン不要で掲示板をチェック可能。
+学園専用認証: @jiyu.ac.jp ドメインのアカウントによる安心の認証システム。
 
-View your app in AI Studio: https://ai.studio/apps/e4267fbb-6c1f-43f2-add8-0ad90bab4aa2
+🎨 デザインコンセプト
+「伝統（臙脂）× 最新（Material 3 Expressive）」
+学園カラー: 自由学園のシンボルである**臙脂色（Enji-iro）**を基調とし、一目で学園のアプリとわかる親しみやすさを実現。
+Material 3 Expressive: Googleの最新デザイン言語を採用。大きく丸みを帯びた形状（Shape）、ダイナミックなタイポグラフィ、直感的なアニメーションにより、心地よい操作感（User Experience）を提供します。
 
-## Run Locally
+🛠 技術スタック
+Frontend: React (TypeScript)
+Backend/BaaS: Firebase (Authentication, Firestore)
+Styling: Tailwind CSS, Shadcn/ui (Radix UI)
+Icons: Lucide React
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Design Guidance: Material Design 3
