@@ -187,7 +187,7 @@ export default function App() {
               )}
               <div className="space-y-1">
                 <Label className="ml-1 text-xs text-gray-500 font-bold">学園メールアドレス</Label>
-                <Input type="email" placeholder="name@jiyu.ac.jp" className="rounded-2xl border-gray-200 h-12 focus-visible:ring-[#9d1636]" value={email} onChange={e => setEmail(e.target.value)} required />
+                <Input type="email" placeholder="xxx@jiyu.ac.jp" className="rounded-2xl border-gray-200 h-12 focus-visible:ring-[#9d1636]" value={email} onChange={e => setEmail(e.target.value)} required />
               </div>
               <div className="space-y-1">
                 <Label className="ml-1 text-xs text-gray-500 font-bold">パスワード</Label>
