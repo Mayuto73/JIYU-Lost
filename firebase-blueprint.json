@@ -1,0 +1,26 @@
+{
+  "entities": {
+    "LostItem": {
+      "title": "Lost Item",
+      "description": "A lost item reported in the school.",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string", "description": "Title of the lost item" },
+        "description": { "type": "string", "description": "Detailed description" },
+        "imageBase64": { "type": "string", "description": "Base64 encoded image data" },
+        "category": { "type": "string", "enum": ["高等部", "中等部"], "description": "School category" },
+        "status": { "type": "string", "enum": ["未受取", "受取済"], "description": "Status of the item" },
+        "authorUid": { "type": "string", "description": "UID of the user who reported it" },
+        "authorName": { "type": "string", "description": "Name of the user who reported it" },
+        "createdAt": { "type": "string", "format": "date-time", "description": "When it was reported" }
+      },
+      "required": ["title", "category", "status", "authorUid", "authorName", "createdAt"]
+    }
+  },
+  "firestore": {
+    "lost_items": {
+      "schema": { "$ref": "#/entities/LostItem" },
+      "description": "Collection of lost items."
+    }
+  }
+}
