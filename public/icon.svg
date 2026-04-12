@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#9E2236" rx="112" />
+  <g transform="translate(128, 128) scale(10.66)">
+    <path fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M14 22v-4a2 2 0 1 0-4 0v4 M18 10l3.44 1.72a2 2 0 0 1 1.11 1.81v3.47a2 2 0 0 1-1.11 1.81L18 20.53 M18 10v12 M6 10l-3.44 1.72a2 2 0 0 0-1.11 1.81v3.47a2 2 0 0 0 1.11 1.81L6 20.53 M6 10v12 M12 2l7.56 3.78a2 2 0 0 1 1.11 1.81v3.47a2 2 0 0 1-1.11 1.81L12 16.65l-7.56-3.78a2 2 0 0 1-1.11-1.81V7.59a2 2 0 0 1 1.11-1.81Z"/>
+  </g>
+</svg>
